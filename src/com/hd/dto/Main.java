@@ -27,5 +27,14 @@ public class Main {
         System.out.println(loopQueue);
         loopQueue.poll();
         System.out.println(loopQueue);
+
+        MyQueue<Integer> linkedListQueue = new MyLinkedListQueue();
+        linkedListQueue.offer(1);
+        linkedListQueue.offer(2);
+        linkedListQueue.offer(3);
+        System.out.println(linkedListQueue);
+        linkedListQueue.poll();
+        System.out.println(linkedListQueue);
+
     }
 }
